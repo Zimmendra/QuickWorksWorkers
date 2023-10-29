@@ -1,5 +1,5 @@
 import axios from "axios";
-import { BaseUrl } from "./url";
+import { BaseUrl } from "./url"; 
 
 export const requestCompletedJobs = (param) => {
   return new Promise((resolve, reject) => {
